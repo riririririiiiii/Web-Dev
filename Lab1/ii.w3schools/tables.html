@@ -1,0 +1,137 @@
+<!--1.What is the correct tag name for a table-cell in HTML?-->
+<td></td>
+
+<!--2.What is the correct tag name for a table-row in HTML?-->
+<tr></tr>
+
+<!--3.Add a table row at the end of the table, with two table cells.
+The two table cells should have the value "Eve Jackson" and "94".-->
+
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve Jackson</td>
+        <td>94</td>
+    </tr>
+  </table>
+
+<!--Table Borders-->
+<!--1.What is the correct CSS property for styling the border of a table?-->
+border
+
+<!--2.What is the correct CSS code to turn double bordered table into single table:-->
+border-collapse: collapse;
+
+<!--3.Use the correct CSS border values to create a solid black 3 pixels border on a table element.-->
+table, th, td {
+    border: 3px solid black;
+  }
+
+<!--Table Sizes-->
+<!--1.What is the correct CSS property for styling the width of a table?-->
+width
+
+<!--2.True or False. To specify a table width, you are only allowed to use percentages as a value.-->
+False
+
+<!--3.Use CSS styles to make the table 300 pixels wide.-->
+<table style="width:300px;">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!--Table Headers-->
+<!--1.What is the correct tag name for a table-header in HTML?-->
+<th></th>
+
+<!--2.Add a table row with two table headers.
+The two table headers should have the value "Name" and "Age".-->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill Smith</td>
+      <td>50</td>
+    </tr>
+  </table>
+
+<!--3.Add a table caption that says "Names".-->
+<table>
+    <caption>Names</caption>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+  </table>
+
+<!--Table Padding & Spacing-->
+<!--1.What is the correct CSS property for styling the padding inside table cells?-->
+padding
+
+<!--2.What is the correct CSS property for styling the space between the table cells?-->
+<border-spacing></border-spacing>
+
+<!--3.Use the correct CSS property to add 15 pixels of space between the cell border and cell content.-->
+.table td  {
+    padding: 15px;
+}
+
+<!--Table Colspan & Rowspan-->
+<!--1.What is the correct HTML attribute for specifying how many rows a cell should span?-->
+rowspan
+
+<!--2.Use the correct HTML attribute to make the second TH element span two rows.-->
+<table>
+    <tr>
+      <th>Name</th>
+      <td>Jill Smith</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Phone</th>
+      <td>555-77854</td>
+    </tr>
+    <tr>
+      <td>555-77854</td>
+    </tr>
+  </table>
+
+<!--3.Use the correct HTML attribute to make the first TH element span two columns.-->
+<table>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
