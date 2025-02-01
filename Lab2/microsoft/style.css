@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    color: #4b4a4a;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.page_top {
+    font-size: 13px;
+    color: #000;
+    position: relative;
+    left: 20px;
+    box-sizing: border-box;
+    display: block;
+    overflow-x: visible;
+    justify-content: space-between;
+}
+
+#microsoft-logo {
+    position: relative;
+    top: 6px;
+}
+
+#page_top_left {
+    font-weight: 300;
+}
+
+#page_top_right {
+    font-weight: 300;
+    position: relative;
+    left: 200px;
+}
+
+#cart {
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+
+#find {
+    position: relative;
+    top: 6px;
+}
+
+#enter {
+    position: relative;
+    top: 3px;
+}
+
+#blue-text {
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #0067b8;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    top: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+#main-image {
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.services-content {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 95%;
+    margin: 0 auto;
+    flex-grow: 0;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: #0067b8;
+    text-decoration: underline;
+}
+
+
+.service a img {
+    padding-bottom: .3rem;
+    width: 40px;
+}
+
+.blocks {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    width: 90%;
+    margin: 0 60px;
+}
+
+.product {
+    height: 65vh;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.image {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product p {
+    padding: .4rem 0;
+    margin-bottom: 10px;
+    padding: 0, 5rem 1.5rem 1rem 1.5rem;
+    font-size: 1rem;
+}
+
+.buttons {
+    color: rgba(46, 82, 228, 0.703);
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #0067b8;
+    padding: 10px 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto;
+}

@@ -1,0 +1,179 @@
+body {
+    background-color: #fafafa;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.main-login {
+    width: 100%;
+    margin: 30px auto 0;
+    max-width: 1500px;
+}
+#main > .main-login {
+    display: flex;
+    padding: 0 90px;
+  }
+.phone-app {
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form form {
+    background-color: white;
+    display: flex;
+    border: 2px solid #eee;
+    flex-direction: column;
+    padding: 30px 120px;
+    text-align: center;
+}
+
+.form input {
+    background-color: rgb(250, 250, 250);
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.logo img {
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+#separator {
+    margin-top: 15px;
+    color: rgba(164, 164, 164, 0.529);
+    border: solid 0.8px rgb(122, 122, 122);
+    opacity: 20%;
+    width: 100%;
+}
+
+#or {
+    font-weight: bold;
+    max-width: 20%;
+    font-family: helvetica;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.form-button {
+    margin: 20px 0 25px;
+    height: 50px;
+    background-color: #3897f0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#facebook-password {
+    color: #385185;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+#facebook-password img{
+    margin-right: 5px;
+}
+
+#forget-password {
+    font-size: 20px;
+    color: #003569;
+    text-decoration: none;
+}
+
+.sign-up {
+    text-align: center;
+    font-size: 23px;
+    color: #262626;
+    padding: 30px 0;
+    background-color: white;
+    border: 2px solid #eee;
+    margin: 15px 0;
+}
+
+.sign-up a {
+    color: #3897f0;
+    font-weight: bold;
+}
+
+.download {
+    text-align: center;
+    font-size: 20px;
+}
+
+.download span {
+    display: block;
+    margin: 30px 0;
+    color: #262626;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.app img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: none;
+    text-transform: none;
+    font-size: 20px;
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #262626;
+    text-decoration: none;
+    font-family:serif;
+}
+
+.copyright-notice {
+    color: #999999;
+}
