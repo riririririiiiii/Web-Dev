@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function makeUser() {
+      return {
+        name: "John",
+        ref: this
+      };
+    }
+
+    let user = makeUser();
+
+    alert( user.ref.name ); // What's the result?
+    //TypeError: Cannot read properties of undefined (reading 'name')
+  </script>
+</body>
+</html>
