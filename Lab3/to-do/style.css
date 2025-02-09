@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(54, 54, 54);
+    height: 50px;
+}
+
+.header {
+    color: rgb(124, 124, 124);
+    display: flex;
+    padding-left: 10%;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.heading {
+    font-size: 35px;
+}
+
+#new-task {
+    position: relative;
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#new-task input {
+    width: 70%;
+    height: 45px;
+    border: solid 1px;
+    border-color: rgb(220, 220, 220);
+    padding: 0 20px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#new-task input:focus {
+    outline: none;
+}
+
+#new-task button {
+    position: relative;
+    float: right;
+    width: 10%;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #166fe5;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    margin-left: 7%;
+}
+
+#tasks {
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.task {
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: rgb(245, 162, 161);
+}
+
+.task-checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
