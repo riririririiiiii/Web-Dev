@@ -1,0 +1,9 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+    <img [src] = "product.imageLink"/>
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+  <span>Цена: ₸{{product.price}}</span>
+</div>

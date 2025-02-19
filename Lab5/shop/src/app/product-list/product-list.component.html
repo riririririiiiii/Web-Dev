@@ -1,0 +1,5 @@
+<div class = "row">
+  <div *ngFor="let product of products" >
+    <app-product-item [product] = "product" (deleteIntent)="onDelete(product.id)" (manageLikeIntent) = "onLikePress(product.id)"></app-product-item>
+  </div>
+</div>
