@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="categories">
+    <h2>Категории</h2>
+    <button *ngFor="let category of categories" (click)="filterProducts(category)">
+      {{ category }}
+    </button>
+    <button (click)="resetFilter()">Все категории</button>
+  </div>
+
+  <h2>Продукты</h2>
+
+  <div class="products">
+    <app-product-item 
+      *ngFor="let product of filteredProducts" 
+      [product]="product"
+      (manageLikeIntent)="onLikePress($event)"
+      (deleteIntent)="onDelete($event)">
+    </app-product-item>
+  </div>  
+
+<router-outlet></router-outlet>

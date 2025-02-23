@@ -1,0 +1,8 @@
+<div class="product-list">
+  <app-product-item 
+    *ngFor="let product of products"
+    [product]="product"
+    (manageLikeIntent)="manageLikeIntent.emit($event)"
+    (deleteIntent)="deleteIntent.emit($event)">
+  </app-product-item>
+</div>

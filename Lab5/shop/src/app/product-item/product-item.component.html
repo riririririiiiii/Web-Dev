@@ -1,0 +1,26 @@
+<div class="product">
+  <div class="product-content">
+    <div class="product-image">
+      <img [src]="product.imageLink" alt="{{ product.name }}">
+    </div>
+    <div class="product-details">
+      <h3 class="product-title">
+        <a [routerLink]="['/products/detail', product.id]">{{ product.name }}</a>
+      </h3>
+      <p class="description">{{ product.description }}</p>
+      <p class="rating">Rating: <span [innerHTML]="getStars(product.rating)"></span></p>
+      <p class="price">₸{{ product.price }}</p>
+      <div class="product-buttons">
+        <button class="btn share-btn" (click)="share(product.imageLink!)">
+          <i class='bx bx-share-alt'></i>
+        </button>
+        <button class="btn delete-btn" (click)="deleteIntent.emit(product.id)">
+          <i class='bx bx-trash'></i>
+        </button>
+        <button class="btn dislike-btn" (click)="manageLikeIntent.emit(product.id)">
+          <i class='bx bx-like'></i> {{ product.like }} 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
