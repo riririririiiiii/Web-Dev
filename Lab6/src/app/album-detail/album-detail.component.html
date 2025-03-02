@@ -1,0 +1,11 @@
+<div *ngIf="album" class="album-detail-container">
+    <h1>Album: {{ album.id }}</h1>
+    <h2>{{ album.title }}</h2>
+
+    <input type="text" [(ngModel)]="title" placeholder="Enter new title">
+    <button class="save_button" (click)="saveTitle()">Save</button>
+
+    <h3><a [routerLink]="['/albums', album.id, 'photos']">Photos</a></h3>
+
+    <button class="back_button" (click)="goBack()">Return</button>
+</div>

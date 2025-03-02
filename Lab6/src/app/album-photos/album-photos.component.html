@@ -1,0 +1,8 @@
+<button class="return-button" (click)="goBack()">Return</button>
+
+<div class="gallery-container" *ngIf="images.length > 0;">
+  <div *ngFor="let img of images" class="photo-card">
+    <p class="photo-title">{{ img.title }}</p>
+    <img [src]="img.thumbnailUrl" alt="Photo" class="photo-image">
+  </div>
+</div>

@@ -1,0 +1,64 @@
+.albums-container {
+    font-family: Georgia, serif;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff0f5;
+    border-radius: 10px;
+}
+
+.albums-container h1 {
+    color: #d63384;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.album-item {
+    padding: 15px 0;
+    border-bottom: 2px solid #f4c2c2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album-item a {
+    text-decoration: none;
+    color: #c71585;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.album-item p {
+    margin: 0;
+    color: #555;
+    font-size: 18px;
+    display: inline;
+}
+
+.album-item a:hover {
+    text-decoration: underline;
+    color: #ff1493;
+}
+
+.delete-link {
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 22px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.delete-link:hover {
+    color: #cc0000;
+}
+
+.bx-trash {
+    font-size: 24px;
+}
