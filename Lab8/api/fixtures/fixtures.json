@@ -1,0 +1,272 @@
+[
+    {
+      "model": "api.category",
+      "pk": 1,
+      "fields": {
+        "name": "kitchen"
+      }
+    },
+    {
+      "model": "api.category",
+      "pk": 2,
+      "fields": {
+        "name": "small househould"
+      }
+    },
+    {
+      "model": "api.category",
+      "pk": 3,
+      "fields": {
+        "name": "climate"
+      }
+    },
+    {
+      "model": "api.category",
+      "pk": 4,
+      "fields": {
+        "name": "large household"
+      }
+    },
+    {
+      "model": "api.product",
+      "pk": 1,
+      "fields": {
+          "name": "Пылесос Deerma DX700 белый",
+          "price": 14980,
+          "description": "стильный, компактный и удобный пылесос",
+          "count": 0,
+          "is_active": true,
+          "category": 2
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 2,
+      "fields": {
+          "name": "Блендер Slaouwo HB-2075 черный",
+          "price": 6927,
+          "description": "погружной блендер",
+          "count": 0,
+          "is_active": true,
+          "category": 1
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 3,
+      "fields": {
+          "name": "Электрогриль Xiaomi Smart Air Fryer 6.5L BHR7357EU",
+          "price": 59400,
+          "description": "Конвекционный нагрев на 360°",
+          "count": 0,
+          "is_active": true,
+          "category": 1
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 4,
+      "fields": {
+          "name": "Микроволновая печь LG MS-2042DB черный",
+          "price": 46320,
+          "description": "Микроволновая печь LG MS-2042DB выполнена в стильном черном цвете, что делает ее универсальной для кухни любого дизайна.",
+          "count": 0,
+          "is_active": true,
+          "category": 1
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 5,
+      "fields": {
+          "name": "Очиститель воздуха Xiaomi Smart Air Purifier 4 Lite",
+          "price": 76000,
+          "description": "позволит дышать чистым и свежим воздухом без неприятных запахов и частичек пыли или пыльцы",
+          "count": 0,
+          "is_active": true,
+          "category": 3
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 6,
+      "fields": {
+          "name": "Холодильник LG GC-B459MLWM серый",
+          "price": 244400,
+          "description": "главное преимущество это тихая работа",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 7,
+      "fields": {
+          "name": "Стиральная машина Samsung WW70AG5S21EELD белый",
+          "price": 177837,
+          "description": "рассчитана на 7 кг",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 8,
+      "fields": {
+          "name": "Робот-пылесос Xiaomi Robot Vacuum S20 BHR8629EU белый",
+          "price": 79864,
+          "description": "идеальный помощник для дома",
+          "count": 0,
+          "is_active": true,
+          "category": 2
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 9,
+      "fields": {
+          "name": "Отпариватель Sunqar PRO S200 розовый",
+          "price": 51990,
+          "description": "выполняет 2 функции: пароотпаривателя и пароочистителя",
+          "count": 0,
+          "is_active": true,
+          "category": 2
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 10,
+      "fields": {
+          "name": "Кухонный комбайн KENWOOD KCL95.004SI Cooking Chef XL",
+          "price": 649990,
+          "description": "Если современная кулинарная техника еще и не в состоянии полноценно заменить повара-человека, то купив кухонную машину Kenwood KCL 95 004 SI Cooking Chef XL, вы сможете убедиться, насколько близко к этому уже подошли технологии!",
+          "count": 0,
+          "is_active": true,
+          "category": 1
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 11,
+      "fields": {
+          "name": "Кофемашина SOKANY SK-6862 серебристый",
+          "price": 35250,
+          "description": "идеальное решение для ценителей ароматного и насыщенного кофе.",
+          "count": 0,
+          "is_active": true,
+          "category": 1
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 12,
+      "fields": {
+          "name": "Кондиционер CHANGHONG CHG-09QB белый + монтажный комплект",
+          "price": 104990,
+          "description": "Главной особенностью данной модели является многофункциональность, направленная именно в русло полезных в быту опций",
+          "count": 0,
+          "is_active": true,
+          "category": 3
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 13,
+      "fields": {
+          "name": "Швейная машина Janome 4100L белый",
+          "price": 175000,
+          "description": "Семь видов петель для различных типов тканей.",
+          "count": 0,
+          "is_active": true,
+          "category": 2
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 14,
+      "fields": {
+          "name": "Стеклоочиститель Cybros ORN7504 белый",
+          "price": 34990,
+          "description": "прибор предназначен для быстрой и эффективной очистки различных гладких поверхностей: пластиковых окон, стеклопакетов, витражей, зеркал, мебели, кафеля, мраморной плитки и других",
+          "count": 0,
+          "is_active": true,
+          "category": 2
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 15,
+      "fields": {
+          "name": "Посудомоечная машина Hausberg HDW-600BI белый",
+          "price": 124990,
+          "description": "с вместимостью до 12 комплектов посуды",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+     "model": "api.product",
+     "pk": 16,
+     "fields": {
+         "name": "Духовой шкаф Midea MO670A4X серебристый",
+         "price": 133600,
+         "description": "Модель имеет 7 программ приготовления, выбор которых осуществляется с помощью механического регулятора.",
+         "count": 0,
+         "is_active": true,
+         "category": 4
+     }
+ },
+ {
+     "model": "api.product",
+     "pk": 17,
+     "fields": {
+         "name": "Сушильная машина DAUSCHER DTD-1282DSW серебристый",
+         "price": 159990,
+         "description": "вентиляционная модель, которая требует вывода отработанного воздуха наружу через гофротрубу",
+         "count": 0,
+         "is_active": true,
+         "category": 4
+     }
+ },
+ {
+     "model": "api.product",
+     "pk": 18,
+     "fields": {
+         "name": "Озонатор Air Purifier Caiyue",
+         "price": 8100,
+         "description": "инновационное устройство для создания чистой и здоровой атмосферы",
+         "count": 0,
+         "is_active": true,
+         "category": 3
+     }
+ },
+ {
+     "model": "api.product",
+     "pk": 19,
+     "fields": {
+         "name": "Водонагреватель Ariston BLU1 R ABS 80 V",
+         "price": 8100,
+         "description": "относится к устройствам накопительного типа",
+         "count": 0,
+         "is_active": true,
+         "category": 3
+     }
+ },
+ {
+     "model": "api.product",
+     "pk": 20,
+     "fields": {
+         "name": "Рекуператор VAKIO Open Air",
+         "price": 98000,
+         "description": "Обеспечивает автоматический приток свежего воздуха, очищенного от частиц крупной пыли, пуха, насекомых, сажи (благодаря фильтру F6), ослабляет уличные шумы и может устанавливаться в любых помещениях.",
+         "count": 0,
+         "is_active": true,
+         "category": 3
+     }
+ }
+]
+
+  
