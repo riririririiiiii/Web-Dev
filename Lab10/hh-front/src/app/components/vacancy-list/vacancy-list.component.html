@@ -1,0 +1,6 @@
+<a class="back-button" (click)="onBack()">Back</a>
+<div class="vacancy-card" *ngFor="let vacancy of vacancies">
+    <div class="vacancy-title">{{vacancy.name}}</div>
+    <div class="vacancy-description">{{vacancy.description}}</div>
+    <div class="vacancy-salary">₸{{vacancy.salary}}/month</div>
+</div>
