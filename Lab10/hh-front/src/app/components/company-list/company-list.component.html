@@ -1,0 +1,5 @@
+<div class="card" *ngFor = "let company of companies" >
+    <div class="info" [routerLink]="['/companies', company.id, 'vacancies']">
+        <div class="company-name">{{company.name}}</div>
+        <div class="address">{{company.city}}, {{company.address}}</div>
+    </div>
